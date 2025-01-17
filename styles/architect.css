@@ -121,4 +121,17 @@ main > section{
     .team-img-container{
         grid-template-columns: repeat(1, 1fr);
     }
+    .our-feature{
+        margin-left: 20px;
+    }
+}
+
+/* medium size device */
+@media screen and (min-width: 567px) and (max-width: 992px){
+    .teams{
+        flex-direction: column;
+    }
+    .our-feature{
+        margin: 50px auto;
+    }
 }
